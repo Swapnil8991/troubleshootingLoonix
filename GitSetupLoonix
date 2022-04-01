@@ -1,0 +1,14 @@
+Steps to follow to setup Git account on linux.
+
+1. git config --global user.email "mailID"
+2. git config --global user.name "username"
+3. Create & clone a repo from github by clone cmd.
+4. git init
+5. Create whatever file/directory you require.
+6. git add "file/foldername"
+7. Goto Account-> Settings-> Developer Settings and create a Personal access toeken on github.
+8. copy that token and use it while pushing code to remote repo in password field
+9. git commit    #this saves in local repo
+10. git push      #this saves in remote repo
+11. To cache the access token
+12. git config --global credentials.helper cache
